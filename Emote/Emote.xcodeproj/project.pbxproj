@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9AA3D0AC1A86B76000F8700B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA3D0AB1A86B76000F8700B /* AppDelegate.swift */; };
+		9AA3D0AE1A86B76000F8700B /* Identify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA3D0AD1A86B76000F8700B /* Identify.swift */; };
+		9AA3D0B11A86B76000F8700B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AA3D0AF1A86B76000F8700B /* Main.storyboard */; };
+		9AA3D0B31A86B76000F8700B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AA3D0B21A86B76000F8700B /* Images.xcassets */; };
+		9AA3D0B61A86B76000F8700B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AA3D0B41A86B76000F8700B /* LaunchScreen.xib */; };
+		9AA3D0C21A86B76000F8700B /* EmoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA3D0C11A86B76000F8700B /* EmoteTests.swift */; };
+		9AA3D0E01A86E68E00F8700B /* WhatIsWrong.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA3D0DC1A86E68E00F8700B /* WhatIsWrong.swift */; };
+		9AA3D0E11A86E68E00F8700B /* WhatIsWrong.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AA3D0DD1A86E68E00F8700B /* WhatIsWrong.xib */; };
+		9AA3D0E21A86E68E00F8700B /* WhoIsWrongParent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA3D0DE1A86E68E00F8700B /* WhoIsWrongParent.swift */; };
+		9AA3D0E31A86E68E00F8700B /* WhoIsWrongParent.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AA3D0DF1A86E68E00F8700B /* WhoIsWrongParent.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9AA3D0BC1A86B76000F8700B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AA3D09E1A86B76000F8700B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AA3D0A51A86B76000F8700B;
+			remoteInfo = Emote;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9AA3D0A61A86B76000F8700B /* Emote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Emote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AA3D0AA1A86B76000F8700B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AA3D0AB1A86B76000F8700B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9AA3D0AD1A86B76000F8700B /* Identify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Identify.swift; sourceTree = "<group>"; };
+		9AA3D0B01A86B76000F8700B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9AA3D0B21A86B76000F8700B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9AA3D0B51A86B76000F8700B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9AA3D0BB1A86B76000F8700B /* EmoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AA3D0C01A86B76000F8700B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AA3D0C11A86B76000F8700B /* EmoteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmoteTests.swift; sourceTree = "<group>"; };
+		9AA3D0DC1A86E68E00F8700B /* WhatIsWrong.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhatIsWrong.swift; sourceTree = "<group>"; };
+		9AA3D0DD1A86E68E00F8700B /* WhatIsWrong.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WhatIsWrong.xib; sourceTree = "<group>"; };
+		9AA3D0DE1A86E68E00F8700B /* WhoIsWrongParent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhoIsWrongParent.swift; sourceTree = "<group>"; };
+		9AA3D0DF1A86E68E00F8700B /* WhoIsWrongParent.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WhoIsWrongParent.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AA3D0A31A86B76000F8700B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AA3D0B81A86B76000F8700B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9AA3D09D1A86B76000F8700B = {
+			isa = PBXGroup;
+			children = (
+				9AA3D0A81A86B76000F8700B /* Emote */,
+				9AA3D0BE1A86B76000F8700B /* EmoteTests */,
+				9AA3D0A71A86B76000F8700B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9AA3D0A71A86B76000F8700B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AA3D0A61A86B76000F8700B /* Emote.app */,
+				9AA3D0BB1A86B76000F8700B /* EmoteTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AA3D0A81A86B76000F8700B /* Emote */ = {
+			isa = PBXGroup;
+			children = (
+				9AA3D0DC1A86E68E00F8700B /* WhatIsWrong.swift */,
+				9AA3D0DE1A86E68E00F8700B /* WhoIsWrongParent.swift */,
+				9AA3D0D51A86D54600F8700B /* XIB Files */,
+				9AA3D0AB1A86B76000F8700B /* AppDelegate.swift */,
+				9AA3D0AD1A86B76000F8700B /* Identify.swift */,
+				9AA3D0AF1A86B76000F8700B /* Main.storyboard */,
+				9AA3D0B21A86B76000F8700B /* Images.xcassets */,
+				9AA3D0B41A86B76000F8700B /* LaunchScreen.xib */,
+				9AA3D0A91A86B76000F8700B /* Supporting Files */,
+			);
+			path = Emote;
+			sourceTree = "<group>";
+		};
+		9AA3D0A91A86B76000F8700B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9AA3D0AA1A86B76000F8700B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9AA3D0BE1A86B76000F8700B /* EmoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				9AA3D0C11A86B76000F8700B /* EmoteTests.swift */,
+				9AA3D0BF1A86B76000F8700B /* Supporting Files */,
+			);
+			path = EmoteTests;
+			sourceTree = "<group>";
+		};
+		9AA3D0BF1A86B76000F8700B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9AA3D0C01A86B76000F8700B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9AA3D0D51A86D54600F8700B /* XIB Files */ = {
+			isa = PBXGroup;
+			children = (
+				9AA3D0DD1A86E68E00F8700B /* WhatIsWrong.xib */,
+				9AA3D0DF1A86E68E00F8700B /* WhoIsWrongParent.xib */,
+			);
+			name = "XIB Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9AA3D0A51A86B76000F8700B /* Emote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AA3D0C51A86B76000F8700B /* Build configuration list for PBXNativeTarget "Emote" */;
+			buildPhases = (
+				9AA3D0A21A86B76000F8700B /* Sources */,
+				9AA3D0A31A86B76000F8700B /* Frameworks */,
+				9AA3D0A41A86B76000F8700B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Emote;
+			productName = Emote;
+			productReference = 9AA3D0A61A86B76000F8700B /* Emote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9AA3D0BA1A86B76000F8700B /* EmoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AA3D0C81A86B76000F8700B /* Build configuration list for PBXNativeTarget "EmoteTests" */;
+			buildPhases = (
+				9AA3D0B71A86B76000F8700B /* Sources */,
+				9AA3D0B81A86B76000F8700B /* Frameworks */,
+				9AA3D0B91A86B76000F8700B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AA3D0BD1A86B76000F8700B /* PBXTargetDependency */,
+			);
+			name = EmoteTests;
+			productName = EmoteTests;
+			productReference = 9AA3D0BB1A86B76000F8700B /* EmoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9AA3D09E1A86B76000F8700B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Emote;
+				TargetAttributes = {
+					9AA3D0A51A86B76000F8700B = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					9AA3D0BA1A86B76000F8700B = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 9AA3D0A51A86B76000F8700B;
+					};
+				};
+			};
+			buildConfigurationList = 9AA3D0A11A86B76000F8700B /* Build configuration list for PBXProject "Emote" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9AA3D09D1A86B76000F8700B;
+			productRefGroup = 9AA3D0A71A86B76000F8700B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AA3D0A51A86B76000F8700B /* Emote */,
+				9AA3D0BA1A86B76000F8700B /* EmoteTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9AA3D0A41A86B76000F8700B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AA3D0B11A86B76000F8700B /* Main.storyboard in Resources */,
+				9AA3D0E11A86E68E00F8700B /* WhatIsWrong.xib in Resources */,
+				9AA3D0B61A86B76000F8700B /* LaunchScreen.xib in Resources */,
+				9AA3D0B31A86B76000F8700B /* Images.xcassets in Resources */,
+				9AA3D0E31A86E68E00F8700B /* WhoIsWrongParent.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AA3D0B91A86B76000F8700B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9AA3D0A21A86B76000F8700B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AA3D0AE1A86B76000F8700B /* Identify.swift in Sources */,
+				9AA3D0E01A86E68E00F8700B /* WhatIsWrong.swift in Sources */,
+				9AA3D0AC1A86B76000F8700B /* AppDelegate.swift in Sources */,
+				9AA3D0E21A86E68E00F8700B /* WhoIsWrongParent.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AA3D0B71A86B76000F8700B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AA3D0C21A86B76000F8700B /* EmoteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9AA3D0BD1A86B76000F8700B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AA3D0A51A86B76000F8700B /* Emote */;
+			targetProxy = 9AA3D0BC1A86B76000F8700B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9AA3D0AF1A86B76000F8700B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AA3D0B01A86B76000F8700B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9AA3D0B41A86B76000F8700B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AA3D0B51A86B76000F8700B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9AA3D0C31A86B76000F8700B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9AA3D0C41A86B76000F8700B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9AA3D0C61A86B76000F8700B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Emote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9AA3D0C71A86B76000F8700B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Emote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9AA3D0C91A86B76000F8700B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EmoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Emote.app/Emote";
+			};
+			name = Debug;
+		};
+		9AA3D0CA1A86B76000F8700B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EmoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Emote.app/Emote";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9AA3D0A11A86B76000F8700B /* Build configuration list for PBXProject "Emote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AA3D0C31A86B76000F8700B /* Debug */,
+				9AA3D0C41A86B76000F8700B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AA3D0C51A86B76000F8700B /* Build configuration list for PBXNativeTarget "Emote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AA3D0C61A86B76000F8700B /* Debug */,
+				9AA3D0C71A86B76000F8700B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9AA3D0C81A86B76000F8700B /* Build configuration list for PBXNativeTarget "EmoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AA3D0C91A86B76000F8700B /* Debug */,
+				9AA3D0CA1A86B76000F8700B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9AA3D09E1A86B76000F8700B /* Project object */;
+}
